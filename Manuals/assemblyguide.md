@@ -56,5 +56,7 @@ Please note that the board programming pins have an error on the silkscreen:
 
 An easy guide for flashing the program onto the ATtiny can [found here](https://www.sparkfun.com/news/2237). This requires you to configure an Arduino to be used as an ISP. The "SS" pin in the tutorial is also the "RS" pin on the board's programming port.
 
+Simple blink code with a brightness toggle can be found in `Programming\navlights\navlights.ino`. Note that brightness switching in this implementation requires the Mode button present on the board (see PCB Assembly). More info is in the code comments.
+
 ## Mechanical
 There are 4 M3 holes on the corners of this PCB which can be used for mounting. They also have a smooth plane between them for you to attach two zipties width-wise to tie the board to your location of choice. Just make sure that if you are pressing the board up against a conductive surface, the contacts on the back of the board are properly insulated from potential shorts. 
