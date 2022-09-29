@@ -11,9 +11,13 @@ Drone lights help light up your aircraft for night flying and ease of observatio
 - PCB: KiCad project files (KiCad 6.0+)
 - Programming: Code for the ATTiny84A
 
+## Warnings
+Please build and test with caution. Do not look directly into the light at any point when testing. May cause eye damage.
+
 ## To Do
 ### Code
 - [ ] Add different blink modes, toggled by signal pin beside power port/I2C/SPI
+- [ ] Get rid of press and hold for mode switch (instead of delays in main loop, use millis function)
 
 ### PCB Rev B Notes
 - [ ] Add a 5V fuse to protect sensitive components
