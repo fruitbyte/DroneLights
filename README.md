@@ -1,6 +1,6 @@
 <h1 align="center">DroneLights</h1>
 <h3 align="center">A really bright light for your drone</h3>
-<p align="center"><img src="Manual/blink.gif"></p>
+<p align="center"><img src="Manual/blink.gif" style="width:60px;"></p>
 
 ---
 
