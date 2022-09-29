@@ -4,10 +4,10 @@
 
 ---
 
-Drone lights help light up your aircraft for night flying and ease of observation in the daytime.
+Drone lights help light up your aircraft for night flying and ease of observation in the daytime. This specific drone light PCB also doubles as a simple breakout board for the ATTiny84A.
 
 ## Project Directory
-- Manuals: PCB Datasheet & Assembly/Programming Info
+- Manuals: PCB Assembly/Programming Info
 - PCB: KiCad project files (KiCad 6.0+)
 - Programming: Code for the ATTiny84A
 
@@ -25,3 +25,4 @@ Please build and test with caution. Do not look directly into the light at any p
 - [ ] Fix incorrectly labelled MOSI/MISO silkscreen on programming pins
 - [ ] Use proper header spacing on breakout pins so that headers can be soldered if desired
 - [ ] Remove unnecessary components for compact version (programming, breakouts, unnecessary diodes, etc.)
+- [ ] Use a smaller toggle sliding switch for SW3
