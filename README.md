@@ -20,6 +20,7 @@ Drone lights help light up your aircraft for night flying and ease of observatio
 - Reset and configurable pushbuttons
 - Adjustable brightness and blink interval
 - External input
+- Zip-tie-able
 
 ## Warnings
 Please build and test with caution. Do not look directly into the light at any point when testing. May cause eye damage.
